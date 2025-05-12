@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "TLDoktoR",
+  "version": "1.0",
+  "description": "Summarize and translate digital texts and YouTube videos into English, Filipino, and Taglish.",
+  "permissions": ["activeTab", "scripting", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "download.png",
+      "48": "download.png",
+      "128": "download.png"
+    }
+  },
+  "icons": {
+    "16": "download.png",
+    "48": "download.png",
+    "128": "download.png"
+  }
+}
